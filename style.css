@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: aquamarine;
+    background-image: url("https://gallery.yopriceville.com/var/albums/World/New_Zealand_Matamata_Hobbiton_Wallpaper.jpg?m=1444815119");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-flow: row wrap;
+    font-family: 'Fondamento', cursive, monospace;
+    color: #000000;
+}
+.expandRules {
+    width: 20%;
+    height: 9%;
+    overflow: hidden;
+    position: absolute;
+    background-image: url("https://cdn.hipwallpaper.com/i/53/62/HaU7LR.png");
+    background-size: 290px 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 3%;
+}
+.expandRules:hover {
+    height: 80%;
+    width: 20%;
+    transition: ease-in 1.5s;
+}
+li {
+    list-style: none;
+    font-size: 18px;
+}
+.title {
+    width: 80%;
+    height: 9%;
+    display: flex;
+    margin-left: 20%;
+    padding-left: 8%;
+    font-size: 22px;
+}
+#caption {
+    margin-top: 3%;
+    margin-left: 10%;
+}
+.mainSection {
+    width: 80%;
+    height: 92%;
+    display: flex;
+    margin-left: 20%;
+}
+.dice-Button {
+    height: 92%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+}
+#diceImage {
+    height: 80%;
+    width: 80%;
+    margin: 5%;
+   
+    background-repeat: no-repeat;
+    background-size: 105% 100%;
+    align-self: center;
+    visibility: hidden;
+}
+button {
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    font-family: 'Fondamento', cursive, monospace;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 33px;
+    outline: none;
+    cursor: pointer;
+}
+.scoreBoard {
+    height: 44%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://cdn.hipwallpaper.com/i/53/62/HaU7LR.png");
+    background-size: contain;
+    margin-top: 8%;
+    font-weight: bold;
+}
+.scoreBoardTitle {
+    width: 70%;
+    height: 8%;
+    text-align: center;
+    margin-left: 12%;
+    margin-top: 6%;
+}
+#scoreDisplay {
+    width: 70%;
+    height: 77%;
+    margin-left: 12%;
+    text-align: center;
+    font-size: 22px;
+}
+.resetButton {
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+    margin-top: 35.5%;
+    margin-left: 60%;
+    position: absolute;
+}
