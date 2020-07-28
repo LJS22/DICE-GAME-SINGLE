@@ -52,4 +52,3 @@ function assignImage() {
         return numberValue;
     }
 }
-
